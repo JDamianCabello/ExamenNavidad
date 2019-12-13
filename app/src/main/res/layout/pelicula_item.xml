@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="16dp"
+    android:orientation="vertical"
+    app:elevation="9dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/item_PeliculaImagen"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars[12]" />
+
+        <TextView
+            android:id="@+id/item_PeliculaName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/league_mono_bold"
+            android:text="TextView"
+            app:layout_constraintEnd_toStartOf="@+id/item_PeliculaAnnio"
+            app:layout_constraintStart_toEndOf="@+id/item_PeliculaImagen"
+            app:layout_constraintTop_toTopOf="@+id/item_PeliculaImagen" />
+
+        <TextView
+            android:id="@+id/item_PeliculaGenero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="24dp"
+            android:text="TextView"
+            app:layout_constraintBottom_toBottomOf="@+id/item_PeliculaImagen"
+            app:layout_constraintStart_toEndOf="@+id/item_PeliculaImagen" />
+
+        <TextView
+            android:id="@+id/item_PeliculaAnnio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/league_mono_bold"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/item_PeliculaName" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

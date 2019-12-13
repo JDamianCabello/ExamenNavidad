@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="generos">
+        <item>Documental</item>
+        <item>Drama</item>
+        <item>Aventura</item>
+        <item>Comedia</item>
+        <item>Terror</item>
+    </string-array>
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Examen</string>
+
+    <!--    Strings de listar-->
+    <string name="listDelete">¿Desea eliminar la película</string>
+    <string name="listDeleteCancelButton">CANCELAR</string>
+    <string name="listDeleteOkButton">ELIMINAR</string>
+    <string name="listUndoMessage">¿Restablecer la película</string>
+    <string name="listUndoOk">RESTABLECER</string>
+    <string name="listRestoredText">Se ha restaurado la película</string>
+
+
+    <!--    Strings de menu-->
+    <string name="menu_sortDate">Ordenar por año</string>
+    <string name="menu_sortTitle">Ordenar por título</string>
+
+
+    <!--    Strings de add-->
+    <string name="addtvTitle">Título:</string>
+    <string name="addtvDate">Fecha:</string>
+    <string name="addtvGenre">Género:</string>
+    <string name="errorEmptyDate">Debe introducir un año válido</string>
+    <string name="errorEmptyTitle">Debe introducir un título</string>
+    <string name="errorDuplicatedFilm">Ya existe esa película</string>
+</resources>
